@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 16, 2018, 12:40:04 PM
+    Author     : Lakith
+*/
+
+
+body {
+	background-color: #fff;
+	min-width: 960px;
+	margin: 0;
+}
+img {
+	display: block;
+	border: 0px;
+	margin: 0px 0px 0px 0px; 
+}
+
+.clearfix {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.more {
+	background-position: -107px 0;
+	background: #e9363a;
+	color: #fff;
+	display: inline-block;
+	font: 12px/28px Arial, Helvetica, sans-serif;
+	height: 28px;
+	width: 97px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+	text-transform: uppercase;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.15)
+}
+.more:hover {
+	background-position: 0 0;
+	background: #f3383d;
+	color: #fff;
+	text-decoration: none;
+}
+
+.frame1 {
+	background-position: -117px 0;
+	background-color: #fff;
+	height: 225px;
+	width: 199px;
+	margin: 0 5px 6px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	border: 1px solid rgba(242, 242, 242, .5);
+  	box-shadow: 0 0 10px rgba(0,0,0,0.15)
+}
+
+h2 {
+	color: #000;
+	letter-spacing: 2px;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+    font-size: 20px;
+}
+p {
+	color: #626262;
+	font: 14px/24px Arial, Helvetica, sans-serif;
+	margin: 0 0 24px;
+}
+
+
+
+.featured {
+	padding-top: 150px;
+}
+#cars{
+	margin-bottom: 225px;
+}
+.featured > h2 {
+	color: #000;
+	width: 940px;
+	margin: 0 200px 24px;
+	padding: 0 10px;
+}
+.featured ul {
+	list-style: none;
+	padding: 0;
+}
+.featured li {
+	float: left;
+	width: 220px;
+	margin: 0 10px 25px;
+}
+.featured li p {
+	padding-left: 4px;
+}
+.featured li p a {
+	display: block;
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #e9363a;
+	text-decoration: none;
+}
+.featured li p a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.featured li .more {
+	margin-left: 4px;
+}
+.catbtn {
+	width: 940px;
+	margin: 10px 200px 24px;
+	padding: 0 10px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 1em 0;
+    padding: 0;
+    box-shadow: 0px 1px 15px 0px rgba(154, 154, 154, 0.2);
+}
+#navbarNav {
+	width: 960px;
+	margin: 0 175px;
+}
+.navbar-brand {
+	margin-right: 120px;
+	margin-left: 0px;
+	color: rgba(255,255,255,1);
+	/*font: 19px/24px "Times New Roman", Times, serif;*/
+}
+
+.navbar .navbar-brand {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.navbar {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.15)
+}
+.navbar-custom .navbar-nav  li  a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: rgba(229, 71, 75, 0.75);
+}
+.navbar
+{
+    position: fixed;
+    top: 75px;
+    width: 100%;
+}
+a:active{
+font-weight: bold;
+}
